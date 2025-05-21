@@ -16,7 +16,7 @@ model = joblib.load('../modeling/svc_model.pkl')
 label_encoder = joblib.load('../modeling/label_encoder.pkl')
 questions = joblib.load('../modeling/questions.pkl')
 
-st.title("🧠 Personality Prediction App")
+st.title("🧠 Personality Prediction App (Lab13)")
 
 st.markdown("Rate the following statements on a scale from **Fully Disagree (-3)** to **Fully Agree (3)**.")
 
